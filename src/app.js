@@ -17,3 +17,4 @@ app.get( '/', ( req, res ) => {
 io.of( '/stream' ).on( 'connection', stream );
 
 server.listen( 8081 );
+console.log("Server start");
